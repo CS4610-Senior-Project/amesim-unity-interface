@@ -4,18 +4,6 @@
 
 This project provides a system for visualizing flight paths simulated in Simcenter Amesim within a 3D environment created in Unity. It consists of three main components: a web-based user interface for defining simulation parameters, a Python service to run the Amesim simulation and process the output data, and a Unity project to visualize the results.
 
-## System Architecture
-
-```mermaid
-graph LR
-    A[Web UI (unity-interface)] --> B{Configuration File (plane_config.json)};
-    B --> C[Python Simulation Service (simulation-service)];
-    C --> D[Simcenter Amesim];
-    D --> E{Raw Simulation Data (CSVs)};
-    E --> C;
-    C --> F{Processed Data (pid_targets.csv)};
-    F --> G[Unity Visualization (VRSimulation)];
-```
 
 The user interacts with the Web UI to set up simulation parameters and generate a configuration file. The Python Simulation Service takes this configuration, runs the Amesim simulation, and processes the output data into a format suitable for Unity. The Unity project then reads this processed data to drive the 3D visualization of the flight path.
 

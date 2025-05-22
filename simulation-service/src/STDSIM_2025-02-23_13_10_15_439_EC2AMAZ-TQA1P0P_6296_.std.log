@@ -1,0 +1,12 @@
+
+STDOUT: Instantiating a system with 14 unknowns.
+STDOUT: Simcenter Amesim version: 2310 (1366194 - California Polytec Un).
+STDOUT: Initializing model for simulation...
+STDERR: Impossible to open file 'testtable.txt'.
+STDERR: Impossible to open file 'testtable.txt'.
+STDERR: Fatal error in SIGUDA01 instance 1.
+STDERR: Terminating the program.
+STDOUT: Total CPU time: 0 seconds.
+STDERR: Initialization failed.
+
+FAILURE MESSAGE: Simcenter Amesim model plane initialization failed (1).

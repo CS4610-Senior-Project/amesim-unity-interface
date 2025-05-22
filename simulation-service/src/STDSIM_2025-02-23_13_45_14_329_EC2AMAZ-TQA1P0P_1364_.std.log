@@ -1,0 +1,12 @@
+
+STDOUT: Instantiating a system with 14 unknowns.
+STDOUT: Simcenter Amesim version: 2310 (1366194 - California Polytec Un).
+STDOUT: Initializing model for simulation...
+STDERR: Undetermined format in table 'dynamic_time_table.txt'.
+STDERR: Assuming 1D table.
+STDOUT: Number of x-y pairs read from file dynamic_time_table.txt : 4
+STDERR: Warning in SIGUDA01 instance 1.
+STDOUT: Start model simulation...
+
+STDOUT: Total CPU time: 0 seconds.
+SUCCESS MESSAGE: Simcenter Amesim model plane terminated normally.

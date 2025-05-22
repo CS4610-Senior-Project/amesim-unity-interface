@@ -1,0 +1,17 @@
+{
+  "model_file": "models/plane.py",
+  "start_time_s": 1,
+  "end_time_s": 10,
+  "interval_s": 0.1,
+  "parameters": {
+    "veGxbinit@aero_fd_6dof_body": 5,
+    "veGzbinit@aero_fd_6dof_body": 3
+  },
+  "time_series_data": {
+    "dynamic_time_table": {
+      "file": "data/plane_throttle.csv"
+    }
+  },
+  "outputs": ["eulerangles_1@aero_fd_6dof_body"],
+  "generate_output_files": true
+}

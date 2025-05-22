@@ -71,16 +71,7 @@ To set up and run this project, you will need the following installed:
 Follow these steps to run an end-to-end simulation and visualization:
 
 1.  **Start the Web UI:**
-    *   Open your terminal and navigate to the `unity-interface` directory:
-        ```bash
-        cd unity-interface
-        ```
-    *   Run the development server:
-        ```bash
-        pnpm run dev
-        ```
-    *   Open your web browser and go to the local address provided (usually `http://localhost:3000`).
-    *   Use the interface to input your desired simulation parameters and generate/download the `plane_config.json` file.
+    It can be accessed from here: https://v0-custom-unity-ui-design.vercel.app
 
 2.  **Run the Python Simulation Service:**
     *   Open a **new terminal** and navigate to the `simulation-service` directory:
